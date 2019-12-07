@@ -1053,6 +1053,11 @@
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
   integrity sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==
 
+"@types/subtitle@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/subtitle/-/subtitle-2.0.2.tgz#4df70f2a7db3df55c6e692ebce8b240dc4c862bd"
+  integrity sha512-qmQUnwQ9+WQA/3RyzAFZ6ZUaO9g6iTUb6aW+4B1KSr5rhLsY+B1z/8CHOFND91R5pbEISuJPFoFXvPwu9eLNvw==
+
 "@types/webpack-env@^1.13.9":
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.14.1.tgz#0d8a53f308f017c53a5ddc3d07f4d6fa76b790d7"
@@ -1375,6 +1380,13 @@
     prettier "^1.18.2"
     source-map "~0.6.1"
     vue-template-es2015-compiler "^1.9.0"
+
+"@vue/composition-api@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-0.3.4.tgz#43d2c3377173cfe1d02e51e3342bcf0fbde9c4b6"
+  integrity sha512-aMbg/pEk0PSQAIFyWWLqbAmaCCTx1kFq+49KZslIBJH9Wqos7eEPLtMv4gGxd/EcciBIgfbtUXaXGg/O3mheRA==
+  dependencies:
+    tslib "^1.9.3"
 
 "@vue/eslint-config-standard@^4.0.0":
   version "4.0.0"
@@ -9308,6 +9320,13 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
+subtitle@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/subtitle/-/subtitle-2.0.3.tgz#1fed16180273e60dc4be320ecc8ec2f90a51a28d"
+  integrity sha512-NAQVYcWOGky/zEv37EGaTk6VK3WmD3m9JGILLcoh2YTAnXTcVhvNilAWPcqVKtWhmi3zYOBLSGa+3ufetLFrsA==
+  dependencies:
+    zero-fill "^2.2.3"
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -9645,7 +9664,7 @@ tsconfig@^7.0.0:
     strip-bom "^3.0.0"
     strip-json-comments "^2.0.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
@@ -10630,3 +10649,8 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+zero-fill@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/zero-fill/-/zero-fill-2.2.3.tgz#a3def06ba5e39ae644850bb4ca2ad4112b4855e9"
+  integrity sha1-o97wa6XjmuZEhQu0yirUEStIVek=
