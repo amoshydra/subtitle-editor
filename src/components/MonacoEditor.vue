@@ -9,7 +9,7 @@
 import * as monaco from 'monaco-editor'
 import { createComponent, onMounted, ref, onBeforeUnmount, watch } from '@vue/composition-api'
 import { validateSubtitle, toMarker } from '@/lib/subtitle-validator'
-import { registerProvider, LanguageName } from '@/lib/srt-language-provider'
+import { registerProvider, LanguageName } from '@/lib/language-providers/srt/index'
 
 registerProvider()
 

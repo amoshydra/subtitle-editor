@@ -1,4 +1,4 @@
-import { ValidatorError } from './subtitle-validator'
+import { ValidatorError } from '../../subtitle-validator'
 import { MarkerSeverity } from 'monaco-editor'
 
 const VALIDATOR_NAME = 'amoshydra'

@@ -1,6 +1,6 @@
 import srtValidator, { SRTValidatorError, ErrorCode, Validator } from 'srt-validator'
 import * as monaco from 'monaco-editor'
-import { validateSubtitleBlock } from './validators'
+import { validateSubtitleBlock } from './language-providers/srt/validators'
 
 export interface ValidatorError extends SRTValidatorError {
   severity?: monaco.MarkerSeverity
