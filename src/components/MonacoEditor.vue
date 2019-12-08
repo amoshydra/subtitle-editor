@@ -16,6 +16,7 @@ registerProvider()
 const createEditor = (element: HTMLElement, initialValue = '', options?: monaco.editor.IEditorConstructionOptions) => {
   return monaco.editor.create(element, {
     renderControlCharacters: true,
+    renderWhitespace: 'all',
 
     minimap: {
       enabled: false
