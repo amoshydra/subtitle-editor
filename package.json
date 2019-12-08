@@ -11,8 +11,11 @@
   "dependencies": {
     "@vue/composition-api": "^0.3.4",
     "core-js": "^3.4.3",
+    "monaco-editor": "0.18.1",
     "register-service-worker": "^1.6.2",
+    "srt-validator": "^3.1.2",
     "subtitle": "^2.0.3",
+    "vtt.js": "^0.13.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -29,6 +32,7 @@
     "@vue/test-utils": "1.0.0-beta.29",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "monaco-editor-webpack-plugin": "^1.7.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
     "typescript": "~3.5.3",
